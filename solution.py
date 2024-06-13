@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def minMovesToSeat(self, seats: List[int], students: List[int]) -> int:
         # Sort the seats and students in ascending order
